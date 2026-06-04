@@ -31,13 +31,13 @@
         "url": "https://github.com/aproposmath/StationeersBetterOreDetector/releases/download/v0.1.0/BetterOreDetector-v0.1.0.zip",
         "version": "0.1.0"
     },
-    "sha256:d0d9b11d7b75e02195eb7afedb67bb371a5a067f394aca377a65c983b2d66e17": {
+    "sha256:c3c78ae6f462261fca56cf6a9bf67ded98a12c11f1fd0cd36660d5d9f2b1d1d8": {
         "author": "aproposmath",
         "branch": [
             "main"
         ],
         "depends_on": [],
-        "digest": "sha256:d0d9b11d7b75e02195eb7afedb67bb371a5a067f394aca377a65c983b2d66e17",
+        "digest": "sha256:c3c78ae6f462261fca56cf6a9bf67ded98a12c11f1fd0cd36660d5d9f2b1d1d8",
         "id": "com.github.aproposmath.betteroredetector",
         "name": "Better Ore Detector",
         "tag": [
@@ -47,6 +47,6 @@
             "Mining"
         ],
         "url": "https://github.com/aproposmath/StationeersBetterOreDetector/releases/download/main/BetterOreDetector-main.zip",
-        "version": "0.1.0.1-dev"
+        "version": "0.2.0.2-dev"
     }
 }
