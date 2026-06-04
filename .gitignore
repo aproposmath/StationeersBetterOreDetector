@@ -1,0 +1,9 @@
+bin
+obj
+ori
+VersionInfo.cs
+*.txt
+*.patch
+libs
+*.zip
+data

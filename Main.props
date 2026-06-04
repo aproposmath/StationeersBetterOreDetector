@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <AssemblyName>BetterOreDetector</AssemblyName>
+    <Description>Better visuals and vein compass for the Ore Detector device</Description>
+    <!-- Optional: Set this if it's not found automatically or you want to force a specific Stationeers directory -->
+    <StationeersDirectory/>
+  </PropertyGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
