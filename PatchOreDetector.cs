@@ -17,7 +17,12 @@ static class PatchOreDetector
     [HarmonyPatch(typeof(OreDetector)), HarmonyPatch(nameof(OreDetector.UpdateMaterials)), HarmonyPrefix]
     private static void PrefixUpdateMaterials(OreDetector __instance, ref float distance)
     {
-        __instance.SignalInactiveMaterial.color = Color.black;
+        if (__instance.SignalInactiveMaterial.color != Color.black)
+        {
+            var newMat = new Material(__instance.SignalInactiveMaterial);
+            newMat.color = Color.black;
+            __instance.SignalInactiveMaterial = newMat;
+        }
 
         var human = __instance.RootParentHuman;
         if (human == null) return;

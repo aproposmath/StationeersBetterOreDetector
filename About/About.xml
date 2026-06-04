@@ -3,7 +3,7 @@
   <Name>Better Ore Detector</Name>
   <Author>aproposmath</Author>
   <ModID>com.github.aproposmath.betteroredetector</ModID>
-  <Version>0.1.0</Version>
+  <Version>0.2.0</Version>
   <Description>
         Better visuals (black unlit lights) and vein compass for the ore detector
 
@@ -14,9 +14,9 @@
         Source Code: https://github.com/aproposmath/StationeersBetterOreDetector
     </Description>
   <ChangeLog >
-    v0.1.0:
+    v0.2.0:
 
-    - Initial release
+    - Fix changing color of all red items to black (spraycan etc). Thx @Mokmo for testing/reporting
   </ChangeLog >
   <WorkshopHandle></WorkshopHandle>
   <Tags>
