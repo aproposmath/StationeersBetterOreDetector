@@ -45,11 +45,11 @@ static class PatchOreDetector
         if (__instance.SignalInactiveMaterial.color != Color.black)
             ResetMaterials(__instance);
 
-        DimBrightnessIfHelmetLight(__instance);
-
         var human = __instance.RootParentHuman;
         if (human == null)
             return;
+
+        DimBrightnessIfHelmetLight(__instance);
 
         if (!BetterOreDetectorPlugin.EnableOreCompass.Value)
             return;
