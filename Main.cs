@@ -15,7 +15,7 @@ public class BetterOreDetectorPlugin : BaseUnityPlugin
     public const string PluginVersion = ThisModInfo.Version;
     private Harmony _harmony;
 
-    public static ConfigEntry<bool> OreCompass;
+    public static ConfigEntry<bool> EnableOreCompass;
 
     private void Awake()
     {
@@ -24,7 +24,7 @@ public class BetterOreDetectorPlugin : BaseUnityPlugin
             L.SetLogger(this.Logger);
             L.Info($"Awake {ThisModInfo.Info}");
 
-            OreCompass = Config.Bind(
+            EnableOreCompass = Config.Bind(
                 "General",
                 "OreCompass",
                 true,

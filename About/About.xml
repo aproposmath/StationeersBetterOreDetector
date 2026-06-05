@@ -3,9 +3,10 @@
   <Name>Better Ore Detector</Name>
   <ModID>com.github.aproposmath.betteroredetector</ModID>
   <Author>aproposmath</Author>
-  <Version>0.2.0</Version>
+  <Version>0.3.0</Version>
   <Description>
-        Better visuals (black unlit lights) and vein compass for the ore detector
+        - Better visuals: black unlit lights, dimmed ore image
+        - Vein compass for the ore detector (optional, enabled by default)
 
         [b]Installation[/b]
         This is a [b]StationeersLaunchPad[/b] Plugin Mod. It requires BepInEx to be installed.
@@ -14,9 +15,13 @@
         Source Code: https://github.com/aproposmath/StationeersBetterOreDetector
     </Description>
   <ChangeLog>
-    v0.2.0:
+    v0.3.0:
 
-    - Fix changing color of all red items to black (spraycan etc). Thx @Mokmo for testing/reporting
+    - Configuration option to disable the compass feature
+    - More accurate compass
+    - Fix issue with red unlit lits on startup
+    - Dim the ore image when the helmet light is on
+
   </ChangeLog>
   <WorkshopHandle>3738676842</WorkshopHandle>
   <Tags>
@@ -27,7 +32,8 @@
   </Tags>
   <InGameDescription><![CDATA[
 <size=30><color=#ffff00>Better Ore Detector</color></size>
-Better visuals (black unlit lights) and vein compass for the ore detector
+- Better visuals: black unlit lights, dimmed ore image
+- Vein compass for the ore detector (optional, enabled by default)
 
 <b><color=#ffff00>Installation</color></b>
 This is a <color=#ffa500>StationeersLaunchPad</color> Plugin Mod. It requires BepInEx to be installed.
