@@ -15,6 +15,40 @@
         "url": "https://github.com/aproposmath/StationeersBetterOreDetector/releases/download/v0.2.0/BetterOreDetector-v0.2.0.zip",
         "version": "0.2.0"
     },
+    "sha256:619c26320d5fad7b41a14cc012c84e383e9e61c63f2ec22b90fd66a9a028c782": {
+        "author": "aproposmath",
+        "branch": [
+            "main"
+        ],
+        "depends_on": [],
+        "digest": "sha256:619c26320d5fad7b41a14cc012c84e383e9e61c63f2ec22b90fd66a9a028c782",
+        "id": "com.github.aproposmath.betteroredetector",
+        "name": "Better Ore Detector",
+        "tag": [
+            "Mod",
+            "BepInEx",
+            "StationeersLaunchPad",
+            "Mining"
+        ],
+        "url": "https://github.com/aproposmath/StationeersBetterOreDetector/releases/download/main/BetterOreDetector-main.zip",
+        "version": "0.3.0"
+    },
+    "sha256:70d6b892f5ae4cb2bb82bcf280b99d0c961f38c94e94f340947c2612809250d4": {
+        "author": "aproposmath",
+        "branch": [],
+        "depends_on": [],
+        "digest": "sha256:70d6b892f5ae4cb2bb82bcf280b99d0c961f38c94e94f340947c2612809250d4",
+        "id": "com.github.aproposmath.betteroredetector",
+        "name": "Better Ore Detector",
+        "tag": [
+            "Mod",
+            "BepInEx",
+            "StationeersLaunchPad",
+            "Mining"
+        ],
+        "url": "https://github.com/aproposmath/StationeersBetterOreDetector/releases/download/v0.3.0/BetterOreDetector-v0.3.0.zip",
+        "version": "0.3.0"
+    },
     "sha256:787e5e5f7eab1aee7fca61c45e54344b27d7c69c848aab912379e5d8f49c7625": {
         "author": "aproposmath",
         "branch": [],
@@ -30,23 +64,5 @@
         ],
         "url": "https://github.com/aproposmath/StationeersBetterOreDetector/releases/download/v0.1.0/BetterOreDetector-v0.1.0.zip",
         "version": "0.1.0"
-    },
-    "sha256:c3c78ae6f462261fca56cf6a9bf67ded98a12c11f1fd0cd36660d5d9f2b1d1d8": {
-        "author": "aproposmath",
-        "branch": [
-            "main"
-        ],
-        "depends_on": [],
-        "digest": "sha256:c3c78ae6f462261fca56cf6a9bf67ded98a12c11f1fd0cd36660d5d9f2b1d1d8",
-        "id": "com.github.aproposmath.betteroredetector",
-        "name": "Better Ore Detector",
-        "tag": [
-            "Mod",
-            "BepInEx",
-            "StationeersLaunchPad",
-            "Mining"
-        ],
-        "url": "https://github.com/aproposmath/StationeersBetterOreDetector/releases/download/main/BetterOreDetector-main.zip",
-        "version": "0.2.0.2-dev"
     }
 }
