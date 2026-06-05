@@ -15,13 +15,11 @@
         "url": "https://github.com/aproposmath/StationeersBetterOreDetector/releases/download/v0.2.0/BetterOreDetector-v0.2.0.zip",
         "version": "0.2.0"
     },
-    "sha256:619c26320d5fad7b41a14cc012c84e383e9e61c63f2ec22b90fd66a9a028c782": {
+    "sha256:6de446826e5024843395626806b9c02b5d4ee01e97d2a1585364936acf7e922c": {
         "author": "aproposmath",
-        "branch": [
-            "main"
-        ],
+        "branch": [],
         "depends_on": [],
-        "digest": "sha256:619c26320d5fad7b41a14cc012c84e383e9e61c63f2ec22b90fd66a9a028c782",
+        "digest": "sha256:6de446826e5024843395626806b9c02b5d4ee01e97d2a1585364936acf7e922c",
         "id": "com.github.aproposmath.betteroredetector",
         "name": "Better Ore Detector",
         "tag": [
@@ -30,8 +28,8 @@
             "StationeersLaunchPad",
             "Mining"
         ],
-        "url": "https://github.com/aproposmath/StationeersBetterOreDetector/releases/download/main/BetterOreDetector-main.zip",
-        "version": "0.3.0"
+        "url": "https://github.com/aproposmath/StationeersBetterOreDetector/releases/download/v0.3.1/BetterOreDetector-v0.3.1.zip",
+        "version": "0.3.1"
     },
     "sha256:70d6b892f5ae4cb2bb82bcf280b99d0c961f38c94e94f340947c2612809250d4": {
         "author": "aproposmath",
@@ -64,5 +62,23 @@
         ],
         "url": "https://github.com/aproposmath/StationeersBetterOreDetector/releases/download/v0.1.0/BetterOreDetector-v0.1.0.zip",
         "version": "0.1.0"
+    },
+    "sha256:f6ee537823db39304fa1bada7615b67f4d93329438584c28e3500ae7e298ceb3": {
+        "author": "aproposmath",
+        "branch": [
+            "main"
+        ],
+        "depends_on": [],
+        "digest": "sha256:f6ee537823db39304fa1bada7615b67f4d93329438584c28e3500ae7e298ceb3",
+        "id": "com.github.aproposmath.betteroredetector",
+        "name": "Better Ore Detector",
+        "tag": [
+            "Mod",
+            "BepInEx",
+            "StationeersLaunchPad",
+            "Mining"
+        ],
+        "url": "https://github.com/aproposmath/StationeersBetterOreDetector/releases/download/main/BetterOreDetector-main.zip",
+        "version": "0.3.1"
     }
 }

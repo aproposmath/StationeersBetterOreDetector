@@ -3,17 +3,25 @@
   >
   <ModVersion
       ModID="com.github.aproposmath.betteroredetector"
-      Version="0.3.0"
+      Version="0.3.1"
       Name="Better Ore Detector"
       Author="aproposmath"
       Url="https://github.com/aproposmath/StationeersBetterOreDetector/releases/download/main/BetterOreDetector-main.zip"
-      Digest="sha256:619c26320d5fad7b41a14cc012c84e383e9e61c63f2ec22b90fd66a9a028c782"
+      Digest="sha256:f6ee537823db39304fa1bada7615b67f4d93329438584c28e3500ae7e298ceb3"
     >
     <Branch
         Value="main"
     />
   </ModVersion
   >
+  <ModVersion
+      ModID="com.github.aproposmath.betteroredetector"
+      Version="0.3.1"
+      Name="Better Ore Detector"
+      Author="aproposmath"
+      Url="https://github.com/aproposmath/StationeersBetterOreDetector/releases/download/v0.3.1/BetterOreDetector-v0.3.1.zip"
+      Digest="sha256:6de446826e5024843395626806b9c02b5d4ee01e97d2a1585364936acf7e922c"
+  />
   <ModVersion
       ModID="com.github.aproposmath.betteroredetector"
       Version="0.3.0"
