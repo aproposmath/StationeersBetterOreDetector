@@ -3,7 +3,7 @@
   <Name>Better Ore Detector</Name>
   <ModID>com.github.aproposmath.betteroredetector</ModID>
   <Author>aproposmath</Author>
-  <Version>0.3.0</Version>
+  <Version>0.3.2</Version>
   <Description>
         - Better visuals: black unlit lights, dimmed ore image
         - Vein compass for the ore detector (optional, enabled by default)
@@ -15,12 +15,9 @@
         Source Code: https://github.com/aproposmath/StationeersBetterOreDetector
     </Description>
   <ChangeLog>
-    v0.3.0:
+    v0.3.2:
 
-    - Configuration option to disable the compass feature
-    - More accurate compass
-    - Fix issue with red unlit lits on startup
-    - Dim the ore image when the helmet light is on
+    - Disable black light material patch on newer game version (was fixed in stock)
 
   </ChangeLog>
   <WorkshopHandle>3738676842</WorkshopHandle>

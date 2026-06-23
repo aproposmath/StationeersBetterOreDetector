@@ -6,6 +6,8 @@ using UnityEngine;
 using Objects.Items;
 using TerrainSystem;
 using Assets.Scripts.Objects.Items;
+using Assets.Scripts;
+using System;
 
 // Show angle distance in lights instead of actual distance
 // the beeps are unchanged
@@ -14,10 +16,15 @@ using Assets.Scripts.Objects.Items;
 [HarmonyPatch]
 static class PatchOreDetector
 {
+    static readonly Version gameVersion = typeof(GameManager).Assembly.GetName().Version;
+    static readonly bool NeedsBlackMaterialPatch = gameVersion < Version.Parse("0.2.6350.27462");
+
     static void ResetMaterials(OreDetector detector)
     {
-        var newMat = new Material(detector.SignalInactiveMaterial);
-        newMat.color = Color.black;
+        var newMat = new Material(detector.SignalInactiveMaterial)
+        {
+            color = Color.black
+        };
         detector.SignalInactiveMaterial = newMat;
         for (int i = 0; i < detector.signalStrengthIndicators.Length; i++)
             detector.indicatorStates[i] = OreDetector.IndicatorState.On;
@@ -27,7 +34,6 @@ static class PatchOreDetector
     static void DimBrightnessIfHelmetLight(OreDetector detector)
     {
         MeshRenderer screen = detector.Screen;
-        var mat = new Material(screen.material);
 
         var human = detector.RootParentHuman;
         var factor = 1.0f;
@@ -42,7 +48,7 @@ static class PatchOreDetector
         if (__instance == null)
             return;
 
-        if (__instance.SignalInactiveMaterial.color != Color.black)
+        if (NeedsBlackMaterialPatch && __instance.SignalInactiveMaterial.color != Color.black)
             ResetMaterials(__instance);
 
         var human = __instance.RootParentHuman;
