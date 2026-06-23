@@ -3,6 +3,14 @@
   >
   <ModVersion
       ModID="com.github.aproposmath.betteroredetector"
+      Version="0.3.2"
+      Name="Better Ore Detector"
+      Author="aproposmath"
+      Url="https://github.com/aproposmath/StationeersBetterOreDetector/releases/download/v0.3.2/BetterOreDetector-v0.3.2.zip"
+      Digest="sha256:54b3e91db9b09b9416460b458589681f1bcb297d2afd1c2f017d2f18d23319a2"
+  />
+  <ModVersion
+      ModID="com.github.aproposmath.betteroredetector"
       Version="0.3.1.1-dev"
       Name="Better Ore Detector"
       Author="aproposmath"
